@@ -1,0 +1,143 @@
+header {
+  background-color: #212529;
+  height: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  position: relative;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: 7px 0px;
+}
+a:hover {
+  color: white;
+}
+.openHeader {
+  height: auto;
+  flex-direction: column;
+  justify-content: start;
+}
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger {
+  height: 40px;
+  width: 55px;
+  padding: 7px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.burger div {
+  height: 2px;
+  width: 60%;
+  background-color: grey;
+}
+.burgerOpen {
+  border: solid grey 2px;
+  border-radius: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  height: 100%;
+  margin: 0;
+}
+.logo span {
+  font-size: x-large;
+  font-family: Super;
+  margin: 0;
+}
+.cartContainer {
+  width: 15rem;
+  display: flex;
+  justify-content: end;
+}
+.miniCart {
+  height: 40px;
+  width: 55px;
+  padding: 7px 4px;
+  display: flex;
+  justify-content: center;
+}
+.miniCart img {
+  height: 100%;
+}
+.numbersCart {
+  position: relative;
+  color: white;
+  right: 16px;
+  bottom: 0px;
+  font-size: x-small;
+}
+.oneNumber {
+  right: 15px;
+  bottom: 1px;
+  font-size: small;
+}
+.menuBurgerOpen {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 5px 0px;
+}
+.menuBurger {
+  display: none;
+}
+.accordion-button {
+  background-color: transparent;
+  color: white;
+  margin: 0;
+}
+.accordion-button::after {
+  content: none;
+}
+.menuNavigation {
+  display: none;
+}
+/* Version de escritorio */
+@media screen and (min-width: 1000px) {
+  .burger {
+    display: none;
+  }
+  header {
+    padding: 5px;
+  }
+  .navContainer {
+    width: 80%;
+  }
+  .miniCartContainer {
+    width: 15rem;
+    display: flex;
+    justify-content: end;
+  }
+  .logo {
+    width: 15rem;
+    justify-content: start;
+  }
+  .menuNavigation {
+    height: 50px;
+    padding: 4px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 60%;
+  }
+  .menuNavigation a {
+    margin: 0;
+  }
+}

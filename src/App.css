@@ -1,0 +1,15 @@
+* {
+  font-family: Robotop;
+}
+@font-face {
+  font-family: Robotop;
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Super;
+  src: url("./assets/fonts/Super.ttf");
+}
+@font-face {
+  font-family: Titulo-banner;
+  src: url(./assets/fonts/Bevan-Regular.ttf);
+}

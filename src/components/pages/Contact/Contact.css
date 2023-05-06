@@ -1,0 +1,30 @@
+.contactContainer {
+  height: 800px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contactContainer a {
+  text-decoration: none;
+  color: black;
+}
+.contactContainer h1 span {
+  font-size: 50px;
+  font-family: Super;
+}
+.myname {
+  border: solid 1px black;
+  border-radius: 30px;
+}
+.myname:hover {
+  background-color: black;
+  border: solid 1px white;
+  color: white;
+}
+@media screen and (min-width: 1000px) {
+  .contactContainer h1 span {
+    font-size: 150px;
+  }
+}
