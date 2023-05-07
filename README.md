@@ -9,7 +9,7 @@ Utilizando:
 
         npm create vite@latest my-react-app -- --template react
 
-## Scrip para iniciarlo
+## Script para iniciarlo
 En la carpeta del protecto:
 
         npm run dev
