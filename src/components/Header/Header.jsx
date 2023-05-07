@@ -70,7 +70,7 @@ const Header = () => {
           <Link to={"/contacto"}>Contacto</Link>
         </div>
         <div className="miniCartContainer">
-          <Link to={"/cart"}>
+          <Link to={"/carrito"}>
             <div className="miniCart">
               <img src={logoImg} alt="icon cart" />
               {quantity !== 0 && quantity < 10 && (

@@ -142,7 +142,7 @@ const ProductDetail = () => {
             <p>Cantidad: {stock}</p>
             {stock > 0 ? (
               <Button
-                variant="dark"
+                variant="dark btn-lg"
                 onClick={() => {
                   addToCart(
                     product.id,
@@ -156,11 +156,11 @@ const ProductDetail = () => {
                 Agregar al carrito
               </Button>
             ) : (
-              <Button variant="dark" disabled>
+              <Button variant="dark btn-lg" disabled>
                 Agregar al carrito
               </Button>
             )}
-            <p>{product.warranty}</p>
+            <p style={{ marginTop: "15px" }}>{product.warranty}</p>
           </div>
         </div>
       </div>
