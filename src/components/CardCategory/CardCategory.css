@@ -1,0 +1,38 @@
+.cardCategory {
+  background-color: #212529;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px 1px rgb(0, 0, 0);
+}
+.linkCardCategory {
+  text-decoration: none;
+  color: white;
+}
+.cardCategory:hover {
+  scale: 110%;
+}
+.cardCategory h2 {
+  font-size: smaller;
+  text-align: center;
+}
+.cardCategory span {
+  font-size: 40px;
+  color: #d4af37;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media screen and (min-width: 1000px) {
+  .cardCategory {
+    height: 150px;
+    width: 150px;
+  }
+  .cardCategory span {
+    font-size: 50px;
+  }
+  .cardCategory h2 {
+    font-size: medium;
+  }
+}
