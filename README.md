@@ -10,7 +10,7 @@ Utilizando:
         npm create vite@latest my-react-app -- --template react
 
 ## Script para iniciarlo
-En la carpeta del protecto:
+En la carpeta del proyecto:
 
         npm run dev
 
