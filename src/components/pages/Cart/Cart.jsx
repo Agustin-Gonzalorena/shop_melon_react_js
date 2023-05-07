@@ -4,7 +4,7 @@ import { useCartContext } from "../../../context/CartContext";
 import { Link } from "react-router-dom";
 import { Table, Button } from "react-bootstrap";
 const Cart = () => {
-  const { cartProducts, deleteOne, totalPrice } = useCartContext();
+  const { cartProducts, deleteOne } = useCartContext();
 
   return (
     <div className="cartPageContainer">
