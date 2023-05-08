@@ -4,7 +4,7 @@ import { useCartContext } from "../../../context/CartContext";
 import { Link } from "react-router-dom";
 import { Table, Button } from "react-bootstrap";
 const Cart = () => {
-  const { cartProducts, deleteOne } = useCartContext();
+  const { cartProducts, deleteOne, total, emptyCart } = useCartContext();
 
   return (
     <div className="cartPageContainer">
@@ -53,7 +53,17 @@ const Cart = () => {
               ))}
             </tbody>
           </Table>
-          <div>Hola</div>
+          <section className="buyBar">
+            <p>Total a pagar: ${new Intl.NumberFormat().format(total)}</p>
+            <Button onClick={emptyCart} variant="danger">
+              Vaciar carrito
+            </Button>
+          </section>
+          <Link className="buyButton" to={"/checkout"}>
+            <Button className="buyButton" variant="success">
+              Comprar
+            </Button>
+          </Link>
         </div>
       )}
     </div>

@@ -1,4 +1,4 @@
-input {
+.searchInput input {
   border: 0.5px solid white;
   background-color: #282828;
   border-radius: 20px;
@@ -13,13 +13,13 @@ input {
   padding: 0 6px;
   padding-left: 12px;
 }
-input:focus {
+.searchInput input:focus {
   outline: none;
   box-shadow: none;
   border-color: rgb(161, 161, 161);
   background-color: #4d5154;
 }
 
-input::placeholder {
+.searchInput input::placeholder {
   color: white;
 }

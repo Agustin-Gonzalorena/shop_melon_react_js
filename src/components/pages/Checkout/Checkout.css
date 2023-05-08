@@ -1,0 +1,32 @@
+.pageCheckout {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer {
+  height: auto;
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  border-radius: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.form input {
+  margin: 10px;
+  text-align: center;
+  border-radius: 30px;
+  border: 0;
+}
+@media screen and (min-width: 1000px) {
+  .pageCheckout {
+    height: 700px;
+  }
+}

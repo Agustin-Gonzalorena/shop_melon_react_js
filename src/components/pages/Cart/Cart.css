@@ -32,6 +32,23 @@ table td p {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.buyBar {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #212529;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buyBar p {
+  margin: 0;
+  color: white;
+}
+.buyButton {
+  width: 100%;
+  margin-top: 10px;
+}
 /* Version de escritorio */
 @media screen and (min-width: 1000px) {
   .centerCart {
@@ -43,5 +60,8 @@ table td p {
   }
   table td p {
     width: 350px;
+  }
+  .buyButton {
+    width: auto;
   }
 }
