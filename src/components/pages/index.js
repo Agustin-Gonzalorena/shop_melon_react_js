@@ -4,6 +4,6 @@ import Home from "./Home/Home";
 import NotFound from "./NotFound/NotFound";
 import ProductDetail from "./ProductDetail/ProductDetail";
 import Products from "./Products/Products";
-import Checkout from "./CheckOut/Checkout";
+import Checkout from "./Checkout/Checkout";
 
 export { Cart, Contact, Home, NotFound, ProductDetail, Products, Checkout };
