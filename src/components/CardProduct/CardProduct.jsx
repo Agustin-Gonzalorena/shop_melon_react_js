@@ -26,7 +26,7 @@ const CardProduct = ({ id, product }) => {
             to={`/producto/${product.id}`}
             style={{ textDecoration: "none", color: "black" }}
           >
-            {product.available_quantity === 1 && (
+            {product.initial_quantity === 1 && (
               <p className="oportunity">
                 <span>¡Última disponible!</span>
               </p>

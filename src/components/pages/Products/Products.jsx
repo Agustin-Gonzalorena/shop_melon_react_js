@@ -29,7 +29,7 @@ const Products = () => {
   };
   const orderLastOne = () => {
     const order = [...local].sort(
-      (a, b) => a.available_quantity - b.available_quantity
+      (a, b) => a.initial_quantity - b.initial_quantity
     );
     setLocal(order);
   };

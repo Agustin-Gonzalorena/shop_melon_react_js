@@ -17,9 +17,9 @@ const ProductDetail = () => {
     try {
       const response = await apiMercadoLibre.get(`items/${ID}`);
       const { data } = response;
-      setStock(data.available_quantity);
+      setStock(data.initial_quantity);
       setProduct(data);
-      checkStock(data.available_quantity);
+      checkStock(data.initial_quantity);
     } catch (error) {
       console.log(error);
       navegar("*");
